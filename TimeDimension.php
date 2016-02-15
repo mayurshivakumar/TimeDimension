@@ -13,10 +13,6 @@ DB::$throw_exception_on_error = true;
 $td = new TimeDimension();
 $date = date("Y-m-d");
 $td->insertToTimeDimensionTable($date, 1);
-echo $td->getTimeDimensionId(date('Y', strtotime($date)),date('m', strtotime($date)), date('j', strtotime($date)) );
-
-//$td->truncateTimeDimensionTable();
-
 
 class TimeDimension
 {
