@@ -1,11 +1,11 @@
 <?php
 require_once 'vendor/sergeytsalkov/meekrodb/db.class.php';
 
-DB::$host = "dev.mshivakumar.lan";
-DB::$port = "3306";
-DB::$user = 'root';
-DB::$password = 'd3v3nv';
-DB::$dbName = 'test2';
+DB::$host = "your_host";
+DB::$port = "your_port";
+DB::$user = 'user';
+DB::$password = 'password';
+DB::$dbName = 'databse name';
 DB::$error_handler = false;
 DB::$throw_exception_on_error = true;
 
